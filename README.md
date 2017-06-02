@@ -1,0 +1,2 @@
+# liferaysetup
+setup liferay

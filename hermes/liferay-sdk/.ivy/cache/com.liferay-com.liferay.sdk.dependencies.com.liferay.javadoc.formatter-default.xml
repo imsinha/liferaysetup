@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.liferay"
+		module="com.liferay.sdk.dependencies.com.liferay.javadoc.formatter"
+		revision="working@NB18848"
+		conf="default"
+		confs="default, internal, provided"
+		date="20170519153959"/>
+	<dependencies>
+		<module organisation="com.liferay" name="com.liferay.javadoc.formatter">
+			<revision name="1.0.11" status="release" pubdate="20160226203043" resolver="liferay-public" artresolver="default" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="successful" details="" size="2508" time="691" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\com.liferay\com.liferay.javadoc.formatter\ivy-1.0.11.xml" searched="true" original-local-location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\com.liferay\com.liferay.javadoc.formatter\ivy-1.0.11.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.javadoc.formatter/1.0.11/com.liferay.javadoc.formatter-1.0.11.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.sdk.dependencies.com.liferay.javadoc.formatter" conf="default" rev="1.0.11" rev-constraint-default="1.0.11" rev-constraint-dynamic="1.0.11" callerrev="working@NB18848"/>
+				<artifacts>
+					<artifact name="com.liferay.javadoc.formatter" type="jar" ext="jar" status="successful" details="" size="154817" time="218" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\com.liferay\com.liferay.javadoc.formatter\jars\com.liferay.javadoc.formatter-1.0.11.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.javadoc.formatter/1.0.11/com.liferay.javadoc.formatter-1.0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20060210133318" resolver="liferay-public" artresolver="default" homepage="http://dom4j.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
+				<metadata-artifact status="successful" details="" size="6765" time="99" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\dom4j\dom4j\ivy-1.6.1.xml" searched="true" original-local-location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\dom4j\dom4j\ivy-1.6.1.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.javadoc.formatter" conf="default, compile, runtime, master" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.0.11"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="successful" details="" size="313898" time="171" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.0.b2" status="release" pubdate="20070209013046" resolver="liferay-public" artresolver="default" homepage="http://xml.apache.org/commons/#external" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2249" time="96" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\xml-apis\xml-apis\ivy-1.0.b2.xml" searched="true" original-local-location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\xml-apis\xml-apis\ivy-1.0.b2.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom"/>
+				<caller organisation="dom4j" name="dom4j" conf="compile, runtime" rev="1.0.b2" rev-constraint-default="1.0.b2" rev-constraint-dynamic="1.0.b2" callerrev="1.6.1"/>
+				<artifacts>
+					<artifact name="xml-apis" type="jar" ext="jar" status="successful" details="" size="109318" time="142" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\xml-apis\xml-apis\jars\xml-apis-1.0.b2.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.qdox" name="qdox">
+			<revision name="1.12.1" status="release" pubdate="20121104181339" resolver="liferay-public" artresolver="default" homepage="http://qdox.codehaus.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4373" time="0" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\com.thoughtworks.qdox\qdox\ivy-1.12.1.xml" searched="false" original-local-location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\com.thoughtworks.qdox\qdox\ivy-1.12.1.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.javadoc.formatter" conf="default, compile, runtime, master" rev="1.12.1" rev-constraint-default="1.12.1" rev-constraint-dynamic="1.12.1" callerrev="1.0.11"/>
+				<artifacts>
+					<artifact name="qdox" type="jar" ext="jar" status="no" details="" size="179818" time="0" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\com.thoughtworks.qdox\qdox\jars\qdox-1.12.1.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526114339" resolver="liferay-public" artresolver="default" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3732" time="0" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\log4j\log4j\ivy-1.2.17.xml" searched="false" original-local-location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\log4j\log4j\ivy-1.2.17.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.javadoc.formatter" conf="default, compile, runtime, master" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.0.11"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="489884" time="0" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\log4j\log4j\bundles\log4j-1.2.17.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant">
+			<revision name="1.9.4" status="release" pubdate="20140430052111" resolver="liferay-public" artresolver="default" homepage="http://ant.apache.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<metadata-artifact status="no" details="" size="3168" time="0" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\org.apache.ant\ant\ivy-1.9.4.xml" searched="false" original-local-location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\org.apache.ant\ant\ivy-1.9.4.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/ant/ant/1.9.4/ant-1.9.4.pom"/>
+				<caller organisation="com.liferay" name="com.liferay.javadoc.formatter" conf="default, compile, runtime, master" rev="1.9.4" rev-constraint-default="1.9.4" rev-constraint-dynamic="1.9.4" callerrev="1.0.11"/>
+				<artifacts>
+					<artifact name="ant" type="jar" ext="jar" status="no" details="" size="2019274" time="0" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\org.apache.ant\ant\jars\ant-1.9.4.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/ant/ant/1.9.4/ant-1.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant-launcher">
+			<revision name="1.9.4" status="release" pubdate="20140430053313" resolver="liferay-public" artresolver="default" homepage="http://ant.apache.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="2670" time="0" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\org.apache.ant\ant-launcher\ivy-1.9.4.xml" searched="false" original-local-location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\org.apache.ant\ant-launcher\ivy-1.9.4.xml.original" origin-is-local="false" origin-location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.pom"/>
+				<caller organisation="org.apache.ant" name="ant" conf="compile, runtime" rev="1.9.4" rev-constraint-default="1.9.4" rev-constraint-dynamic="1.9.4" callerrev="1.9.4"/>
+				<artifacts>
+					<artifact name="ant-launcher" type="jar" ext="jar" status="no" details="" size="18381" time="0" location="C:\secutix2\hermes\liferay-sdk\.ivy\cache\org.apache.ant\ant-launcher\jars\ant-launcher-1.9.4.jar">
+						<origin-location is-local="false" location="https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
